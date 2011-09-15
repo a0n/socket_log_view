@@ -1,0 +1,92 @@
+// Example Stylus file
+// All changes are detected and automatically compiled into CSS
+
+@import 'helpers'
+
+// Main
+
+body, html
+  height 100%
+
+body
+  font normal 1em sans-serif
+  text-align left
+
+p
+  margin-bottom 1em
+
+a
+  color #000a68
+
+h1
+  font-size 1.5em
+  margin 1.5em
+  color #0057c5
+  text-shadow 1px 1px 2px white
+
+#content
+  padding 50px
+
+#status
+  height: 1em
+  
+.active
+  background-color: green
+
+.inactive
+  background-color: red
+
+
+ul.logs
+  list-style-type: none
+
+.request
+  padding-left: 0em
+  margin-top: 1.25em
+  border-bottom: 2px solid green
+  
+.method
+  padding: 1em
+  
+.method:before
+  font-weight: bold
+  content: "Method: "
+  font-family: sans
+
+
+  
+.path:before
+  content: "Path: "
+  font-weight: bold
+  font-family: sans
+    
+.path
+  padding: 1em
+
+.params:before
+  font-weight: bold
+  content: "Params: "
+  font-family: sans
+  
+.params
+  padding-left: 4em
+
+li  
+  padding-left: 1em
+  line-height: 1.75em
+  font-family: monospace
+
+.warn
+
+.debug
+  background-color: #D2FDFF
+
+.info
+  background-color: #E6F7DF
+
+.fatal
+  background-color: #FFCAD2
+
+.fatal pre:first-line
+  font-weight: bold
+  

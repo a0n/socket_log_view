@@ -1,0 +1,318 @@
+info it worked if it ends with ok
+verbose cli [ 'node',
+verbose cli   '/usr/local/bin/npm',
+verbose cli   'install',
+verbose cli   'underscore' ]
+info using npm@1.0.6
+info using node@v0.4.10
+verbose /usr/local/bin/node node symlink
+verbose config file /Users/a0n/.npmrc
+verbose config file /usr/local/etc/npmrc
+silly testEngine { name: 'connect',
+silly testEngine   version: '1.5.1',
+silly testEngine   description: 'High performance middleware framework',
+silly testEngine   keywords: [ 'framework', 'web', 'middleware', 'connect', 'rack' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/senchalabs/connect.git' },
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca',
+silly testEngine      url: 'http://tjholowaychuk.com' },
+silly testEngine   dependencies: { qs: '>= 0.0.6', mime: '>= 0.0.1' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.7.6',
+silly testEngine      koala: '0.1.2',
+silly testEngine      less: '1.1.1',
+silly testEngine      sass: '0.5.0',
+silly testEngine      markdown: '0.2.1',
+silly testEngine      ejs: '0.4.3',
+silly testEngine      should: '0.2.1' },
+silly testEngine   main: 'index',
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'connect@1.5.1',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/connect/package.json
+verbose loadDefaults connect@1.5.1
+silly testEngine { name: 'connect-redis',
+silly testEngine   description: 'Redis session store for Connect',
+silly testEngine   version: '1.0.5',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   main: './index.js',
+silly testEngine   dependencies: { redis: '>= 0.0.1' },
+silly testEngine   devDependencies: { connect: '1.4.x' },
+silly testEngine   engines: { node: '>= 0.1.98' },
+silly testEngine   _id: 'connect-redis@1.0.5',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/connect-redis/package.json
+verbose loadDefaults connect-redis@1.0.5
+silly testEngine { name: 'express',
+silly testEngine   description: 'Sinatra inspired web development framework',
+silly testEngine   version: '2.3.11',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'TJ Holowaychuk',
+silly testEngine        email: 'tj@vision-media.ca' },
+silly testEngine      { name: 'Aaron Heckmann',
+silly testEngine        email: 'aaron.heckmann+github@gmail.com' },
+silly testEngine      { name: 'Ciaran Jessup', email: 'ciaranj@gmail.com' },
+silly testEngine      { name: 'Guillermo Rauch', email: 'rauchg@gmail.com' } ],
+silly testEngine   dependencies: 
+silly testEngine    { connect: '>= 1.4.1 < 2.0.0',
+silly testEngine      mime: '>= 0.0.1',
+silly testEngine      qs: '>= 0.0.6' },
+silly testEngine   devDependencies: 
+silly testEngine    { 'connect-form': '0.2.1',
+silly testEngine      ejs: '0.4.2',
+silly testEngine      expresso: '0.7.2',
+silly testEngine      hamljs: '0.5.1',
+silly testEngine      jade: '0.11.0',
+silly testEngine      stylus: '0.13.0',
+silly testEngine      should: '0.2.1',
+silly testEngine      'express-messages': '0.0.2',
+silly testEngine      'node-markdown': '>= 0.0.1',
+silly testEngine      'connect-redis': '>= 0.0.1' },
+silly testEngine   keywords: [ 'framework', 'sinatra', 'web', 'rest', 'restful' ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/express.git' },
+silly testEngine   main: 'index',
+silly testEngine   bin: { express: './bin/express' },
+silly testEngine   scripts: { test: 'make test', prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.4.1 < 0.5.0' },
+silly testEngine   _id: 'express@2.3.11',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/express/package.json
+verbose loadDefaults express@2.3.11
+silly testEngine { name: 'jade',
+silly testEngine   description: 'Jade template engine',
+silly testEngine   version: '0.12.2',
+silly testEngine   author: 
+silly testEngine    { name: 'TJ Holowaychuk',
+silly testEngine      email: 'tj@vision-media.ca' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/visionmedia/jade.git' },
+silly testEngine   main: './index.js',
+silly testEngine   bin: { jade: './bin/jade' },
+silly testEngine   devDependencies: 
+silly testEngine    { expresso: '0.6.4',
+silly testEngine      'coffee-script': '>= 0.0.1',
+silly testEngine      sass: '>= 0.0.1',
+silly testEngine      less: '>= 0.0.1',
+silly testEngine      markdown: '>= 0.0.1',
+silly testEngine      stylus: '>= 0.0.1' },
+silly testEngine   scripts: { prepublish: 'npm prune' },
+silly testEngine   engines: { node: '>= 0.1.98' },
+silly testEngine   dependencies: {},
+silly testEngine   _id: 'jade@0.12.2',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/jade/package.json
+verbose loadDefaults jade@0.12.2
+silly testEngine { name: 'nodemon',
+silly testEngine   homepage: 'http://github.com/remy/nodemon',
+silly testEngine   author: { name: 'Remy Sharp', url: 'http://github.com/remy' },
+silly testEngine   bin: { nodemon: './nodemon.js' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/remy/nodemon.git' },
+silly testEngine   description: 'Simple monitor script for use during development of a node.js app.',
+silly testEngine   keywords: 
+silly testEngine    [ 'monitor',
+silly testEngine      'development',
+silly testEngine      'restart',
+silly testEngine      'autoload',
+silly testEngine      'reload',
+silly testEngine      'terminal' ],
+silly testEngine   version: '0.5.2',
+silly testEngine   preferGlobal: 'true',
+silly testEngine   main: './nodemon',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'nodemon@0.5.2',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/nodemon/package.json
+verbose loadDefaults nodemon@0.5.2
+silly testEngine { name: 'node-redis',
+silly testEngine   description: 'Lightweight, fast, Redis client.',
+silly testEngine   version: '0.1.3',
+silly testEngine   author: { name: 'Tim Smart' },
+silly testEngine   contributors: [ { name: 'Matt Ranney' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/Tim-Smart/node-redis.git' },
+silly testEngine   engine: [ 'node >=0.2.2' ],
+silly testEngine   main: './',
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'node-redis@0.1.3',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/node-redis/package.json
+verbose loadDefaults node-redis@0.1.3
+silly testEngine { name: 'redis',
+silly testEngine   version: '0.6.0',
+silly testEngine   description: 'Redis client library',
+silly testEngine   author: { name: 'Matt Ranney', email: 'mjr@ranney.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Rick Olson' },
+silly testEngine      { name: 'Tim-Smart' },
+silly testEngine      { name: 'TJ Holowaychuk' },
+silly testEngine      { name: 'Orion Henry' },
+silly testEngine      { name: 'Hank Sims' },
+silly testEngine      { name: 'Aivo Paas' },
+silly testEngine      { name: 'Paul Carey' },
+silly testEngine      { name: 'Pieter Noordhuis' },
+silly testEngine      { name: 'Andy Ray' },
+silly testEngine      { name: 'Vladimir Dronnikov' } ],
+silly testEngine   main: './index.js',
+silly testEngine   scripts: { test: 'node ./test.js' },
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/mranney/node_redis.git' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'redis@0.6.0',
+silly testEngine   engines: { node: '*' },
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/redis/package.json
+verbose loadDefaults redis@0.6.0
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/a0n/node_modules/fugue/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+silly testEngine { name: 'fugue',
+silly testEngine   description: 'Unicorn for node',
+silly testEngine   version: '0.1.2',
+silly testEngine   homepage: 'http://www.metaduck.com/fugue',
+silly testEngine   author: 
+silly testEngine    { name: 'Pedro Teixeira',
+silly testEngine      email: 'pedro.teixeira@gmail.com',
+silly testEngine      url: 'http://www.metaduck.com' },
+silly testEngine   contributors: 
+silly testEngine    [ { name: 'Pedro Teixeira',
+silly testEngine        email: 'pedro.teixeira@gmail.com' },
+silly testEngine      { name: 'Luis Reis' } ],
+silly testEngine   repository: 
+silly testEngine    { type: 'git',
+silly testEngine      url: 'git://github.com/pgte/fugue.git' },
+silly testEngine   bugs: 
+silly testEngine    { email: 'pedro.teixeira@gmail.com',
+silly testEngine      url: 'http://github.com/pgte/fugue/issues' },
+silly testEngine   directories: { lib: './lib' },
+silly testEngine   engines: { node: '>=0.3.2' },
+silly testEngine   main: './lib/fugue.js',
+silly testEngine   scripts: { install: 'node-waf configure build' },
+silly testEngine   dependencies: { carrier: '>=0.0.4' },
+silly testEngine   licenses: 
+silly testEngine    [ { type: 'MIT',
+silly testEngine        url: 'http://github.com/pgte/fugue/raw/master/LICENSE' } ],
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'fugue@0.1.2',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/fugue/package.json
+verbose loadDefaults fugue@0.1.2
+silly testEngine { name: 'hiredis',
+silly testEngine   description: 'Wrapper for reply processing code in hiredis',
+silly testEngine   version: '0.1.10',
+silly testEngine   homepage: 'http://github.com/pietern/hiredis-node',
+silly testEngine   author: 
+silly testEngine    { name: 'Pieter Noordhuis',
+silly testEngine      email: 'pcnoordhuis@gmail.com' },
+silly testEngine   main: 'hiredis',
+silly testEngine   directories: { lib: '.' },
+silly testEngine   scripts: { test: 'node test/reader.js' },
+silly testEngine   engines: { node: '*' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'hiredis@0.1.10',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   prebuilt: '0.4-ares1.7.4-ev4.4-openssl0.9.8l-v83.1.8.10-darwin-10.7.0',
+silly testEngine   files: [ 'build', 'build/', '*.node', '*.js' ],
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/hiredis/package.json
+verbose loadDefaults hiredis@0.1.10
+verbose has wscript [ undefined,
+verbose has wscript   { file: '/Users/a0n/node_modules/rbytes/package.json',
+verbose has wscript     contributors: false,
+verbose has wscript     serverjs: false,
+verbose has wscript     wscript: true } ]
+silly testEngine { name: 'rbytes',
+silly testEngine   version: '0.0.2',
+silly testEngine   description: 'Generates cryptographically secure random byte sequences',
+silly testEngine   author: { name: 'Aleksander Williams' },
+silly testEngine   contributors: [],
+silly testEngine   engines: { node: '>=0.3.0' },
+silly testEngine   url: 'http://akdubya.github.com/rbytes/',
+silly testEngine   keywords: [ 'random', 'crypto' ],
+silly testEngine   main: 'index',
+silly testEngine   scripts: { install: 'node-waf configure build' },
+silly testEngine   dependencies: {},
+silly testEngine   devDependencies: {},
+silly testEngine   _id: 'rbytes@0.0.2',
+silly testEngine   _engineSupported: true,
+silly testEngine   _npmVersion: '1.0.6',
+silly testEngine   _nodeVersion: 'v0.4.10',
+silly testEngine   _defaultsLoaded: true }
+verbose caching /Users/a0n/node_modules/rbytes/package.json
+verbose loadDefaults rbytes@0.0.2
+verbose into /Users/a0n [ 'underscore' ]
+verbose cache add [ 'underscore', null ]
+info addNamed [ 'underscore', '' ]
+verbose addNamed [ null, '' ]
+verbose GET underscore
+verbose raw, before any munging underscore
+verbose url resolving [ 'http://registry.npmjs.org/', './underscore' ]
+verbose url resolved http://registry.npmjs.org/underscore
+verbose url parsed { protocol: 'http:',
+verbose url parsed   slashes: true,
+verbose url parsed   host: 'registry.npmjs.org',
+verbose url parsed   hostname: 'registry.npmjs.org',
+verbose url parsed   href: 'http://registry.npmjs.org/underscore',
+verbose url parsed   pathname: '/underscore' }
+verbose etag "5U64LGWFDAADC77C9HJ965V91"
+ERR! Error: EAFNOSUPPORT, Address family not supported by protocol family
+ERR!     at doConnect (net.js:555:5)
+ERR!     at net.js:725:9
+ERR!     at dns.js:196:34
+ERR!     at IOWatcher.callback (dns.js:74:15)
+ERR! Report this *entire* log at:
+ERR!     <http://github.com/isaacs/npm/issues>
+ERR! or email it to:
+ERR!     <npm-@googlegroups.com>
+ERR! 
+ERR! System Darwin 11.1.0
+ERR! command "node" "/usr/local/bin/npm" "install" "underscore"
+verbose exit [ 47, true ]

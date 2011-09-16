@@ -22,6 +22,10 @@ getEntriesForSet = (set ,cb) ->
 exports.actions =
   
   init: (cb) ->
+    @session.channel.subscribe("WARN")
+    @session.channel.subscribe("FATAL")
+    @session.channel.subscribe("INFO")
+    @session.channel.subscribe("DEBUG")
     cb true
   
   subscribe: (level, cb) ->

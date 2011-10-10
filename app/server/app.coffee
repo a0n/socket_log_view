@@ -28,6 +28,14 @@ exports.actions =
     @session.channel.subscribe("DEBUG")
     cb true
   
+  get_levels: (cb) ->
+    R.smembers "levels", (err, levels) ->
+      if err
+        cb err
+      else
+        cb levels
+        
+  
   subscribe: (level, cb) ->
     cb @session.channel.subscribe(level)
     

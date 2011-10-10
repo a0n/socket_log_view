@@ -9,7 +9,7 @@ SS.socket.on 'reconnect', ->   $('#message').text('SocketStream server is up :-)
 exports.init = ->
   scroll = true
   $(window).scroll ->
-    if ($(window).scrollTop() + $(window).height() - $("#logs").height()) > -($(window).height() / 2)
+    if ($(window).scrollTop() + $(window).height() - $("#logs").height()) > -($(window).height() / 5)
       scroll = true
     else
       scroll = false
@@ -17,12 +17,12 @@ exports.init = ->
   # Make a call to the server to retrieve a message
   SS.server.app.init (response) ->
     if response == true
-      $('#status').addClass("active")
-      $('#status').removeClass("inactive")
+      $('#navigation').addClass("active")
+      $('#navigation').removeClass("inactive")
     else
-      $('#status').removeClass("active")
-      $('#status').addClass("inactive")
-
+      $('#navigation').removeClass("active")
+      $('#navigation').addClass("inactive")
+  
   ### START QUICK CHAT DEMO ####
 
   # Listen for new messages and append them to the screen

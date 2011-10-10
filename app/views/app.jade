@@ -4,13 +4,13 @@ html(lang="en")
     != SocketStream
     title Welcome
   body
-    div(id="status", class="inactive")
-    
     script(id="requestTemplate", type="text/x-jquery-tmpl")
       <li class="request"><span class='method ${method}'>${method}</span><span class="path">${path}</span><span class="params">${params}</span></li>
     
     script(id="messageTemplate", type="text/x-jquery-tmpl")
-      <li class='${level}'><pre>${message}</pre></li>
+      <li class='${level}'><time datetime="${timestamp}">${timestamp}</time><pre>${message}</pre></li>
     
+    
+    div(id="navigation", class="inactive")
     
     ul#logs
